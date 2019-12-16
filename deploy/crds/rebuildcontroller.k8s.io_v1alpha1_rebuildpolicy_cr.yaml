@@ -1,0 +1,7 @@
+apiVersion: rebuildcontroller.k8s.io/v1alpha1
+kind: RebuildPolicy
+metadata:
+  name: example-rebuildpolicy
+spec:
+  # Add fields here
+  size: 3
